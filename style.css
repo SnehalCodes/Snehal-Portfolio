@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: lightgray;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  border: 3px solid black;
+}
+  .bio {
+    width: 18.3rem;
+  }
+
+  .project-container {
+    width: 17.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
+  }
+} 
+.header, .hero, .about, .education, .experience, .skills, .footer {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    background-color: lightgray;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.hero {
+    background-color: black;
+    color: white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    width: 95%;
+}
+.hero h1 {
+    font-size: 95px;
+    margin: 0;
+}
+.about, .skills
+{
+  background-color: white;
+  color: black;
+    height: 100%;
+    width: 95%;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid black;
+}
+.projects 
+{
+  background-color: black;
+  color: white;
+    height: 100%;
+    width: 95%;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid black;
+}
+.project-card {
+  background-color: white;
+  box-shadow: 3px 3px gray;
+  padding: 5px;
+  margin: 10px;
+  color: black;
+}
+.project-pic {
+  width: 100%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 91.875rem;
+  padding: 1rem;
+  padding: 0.4rem;
+  gap: 5px;
+ 
+}
+.projects-title {
+  text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 80px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+.education {
+  background-color: black;
+  color: white;
+    height: 100%;
+    width: 96%;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 20px;
+}
+.education-entry
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px 20px;
+  margin: 20px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+.icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+  .icon-card {
+  background-color: white;
+  box-shadow: 0 0 0 2px black, 8px 8px 0 0 gray;
+  padding: 20px;
+  margin: 10px;
+}
+.contact-form {
+    padding: 20px;
+    color: black;
+    margin: 30px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button, .resume-button, .linkedin-button,
+ .github-button, .certificate-button{
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: gray;
+}
+footer {
+    text-align: center;
+    width: 95%;
+    padding: 30px 20px;
+    color: white;
+    background-color: black;
+}
